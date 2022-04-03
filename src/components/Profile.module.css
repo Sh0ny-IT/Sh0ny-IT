@@ -1,0 +1,11 @@
+.content {
+    grid-area: c;
+    background-color: cadetblue;
+    min-height: 100vh;
+}
+.posts {
+    color: #edf1e1;
+}
+.wall {
+    color: #d0d2f1;
+}
