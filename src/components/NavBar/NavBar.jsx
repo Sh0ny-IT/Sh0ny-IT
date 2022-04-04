@@ -16,7 +16,7 @@ export const NavBar = () => {
             <a> Music </a>
         </div>
         <div className={classes.nav}>
-            <a> Settings1 </a>
+            <a> Settings </a>
         </div>
     </nav>
 }
