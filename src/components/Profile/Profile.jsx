@@ -1,13 +1,12 @@
 import React from "react";
 import classes from "./Profile.module.css";
+import {WallPost} from "./WallPost/WallPost";
 
 export const Profile = () => {
     return (
 
-        
 
-        <div className={classes.content}>
-
+        <div>
 
 
             <div><img
@@ -15,11 +14,9 @@ export const Profile = () => {
             /></div>
 
 
-
             <div>
                 ava + description
             </div>
-
 
 
             <div className={classes.posts}>My post
@@ -34,12 +31,10 @@ export const Profile = () => {
             </div>
 
 
-
-            <div className={classes.wall}>
-                <div>Wall Post 3</div>
-                <div>Wall Post 2</div>
-            </div>
-
+            <WallPost message='Hi how are you' likevaley='likes:10'/>
+            <WallPost message='THX i`m fine' likevaley='likes:20'/>
+            <WallPost message='I`m want in toalet' likevaley='likes:30'/>
+            <WallPost message='My first React' likevaley='likes:40'/>
 
 
         </div>
